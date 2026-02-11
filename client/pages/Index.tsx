@@ -35,19 +35,19 @@ export default function Index() {
       {/* Hero Section - Split Screen */}
       <section className="grid lg:grid-cols-2 border-b-[5px] border-loah-dark">
         {/* Left - Orange Side */}
-        <div className="bg-loah-orange border-r-0 lg:border-r-[2.5px] border-b-[5px] lg:border-b-0 border-loah-dark px-8 lg:px-[120px] py-16 lg:py-[242px] min-h-[600px] lg:min-h-[1024px] flex items-center">
-          <div className="max-w-[440px]">
-            <h1 className="text-loah-dark mb-10">
-              <span className="font-bold text-[60px] lg:text-[90px] leading-tight block">Blue</span>
-              <span className="italic text-[60px] lg:text-[90px] leading-tight block">Sky</span>
-              <span className="font-bold text-[60px] lg:text-[90px] leading-tight block">Drinking</span>
+        <div className="bg-loah-orange border-r-0 lg:border-r-[2.5px] border-b-[5px] lg:border-b-0 border-loah-dark px-6 lg:px-[120px] py-16 lg:py-32 min-h-[600px] lg:min-h-[1024px] flex items-center">
+          <div className="w-full max-w-[440px]">
+            <h1 className="text-loah-dark mb-12 lg:mb-16">
+              <span className="font-bold text-5xl sm:text-6xl lg:text-[90px] leading-none block">Blue</span>
+              <span className="italic font-normal text-5xl sm:text-6xl lg:text-[90px] leading-none block">Sky</span>
+              <span className="font-bold text-5xl sm:text-6xl lg:text-[90px] leading-none block">Drinking</span>
             </h1>
-            <p className="text-loah-dark text-base leading-[200%] mb-10 max-w-[318px]">
-              OUR <span className="font-semibold">CRISPY, LIGHT, CRUSHABLE BEERS</span> CARRY ALL THE POSSIBILITIES OF A CLEAR HEAD. AND THEY TASTE DELICIOUS TOO. OPEN THAT WINDOW AND LET YOUR MIND RUN FREE
+            <p className="text-loah-dark text-sm sm:text-base leading-relaxed mb-10 font-medium">
+              OUR <span className="font-bold">CRISPY, LIGHT, CRUSHABLE BEERS</span> CARRY ALL THE POSSIBILITIES OF A CLEAR HEAD. AND THEY TASTE DELICIOUS TOO. OPEN THAT WINDOW AND LET YOUR MIND RUN FREE
             </p>
-            <Link 
-              to="/shop" 
-              className="inline-flex items-center justify-center px-4 py-[15.5px] border-4 border-loah-dark bg-loah-cta text-loah-dark font-bold text-base hover:opacity-90 transition-opacity"
+            <Link
+              to="/shop"
+              className="inline-flex items-center justify-center px-4 py-3 sm:py-[15.5px] border-3 sm:border-4 border-loah-dark bg-loah-cta text-loah-dark font-bold text-sm sm:text-base hover:opacity-90 transition-opacity"
             >
               SHOP NOW
             </Link>
