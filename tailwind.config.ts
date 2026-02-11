@@ -67,10 +67,7 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Lato', 'system-ui', 'sans-serif'],
-        quicksand: ['Quicksand', 'sans-serif'],
-        ptsans: ['PT Sans', 'sans-serif'],
-        loah: ['Post No Bills Jaffna SemiBold', 'sans-serif'],
+        sans: ['Cabin', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
