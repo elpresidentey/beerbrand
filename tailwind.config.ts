@@ -57,6 +57,20 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        loah: {
+          orange: "#FAA007",
+          blue: "#489EB7",
+          dark: "#203F49",
+          cream: "#FFF9EB",
+          pink: "#FFB3CB",
+          cta: "#FAE8BE",
+        },
+      },
+      fontFamily: {
+        sans: ['Lato', 'system-ui', 'sans-serif'],
+        quicksand: ['Quicksand', 'sans-serif'],
+        ptsans: ['PT Sans', 'sans-serif'],
+        loah: ['Post No Bills Jaffna SemiBold', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
