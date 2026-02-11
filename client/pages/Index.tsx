@@ -4,18 +4,18 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="flex items-center justify-between px-8 lg:px-[120px] h-[100px] border-b-[5px] border-loah-dark">
-        <Link to="/" className="text-loah-dark font-semibold text-[60px] leading-[76px] tracking-tight">
+      <header className="flex items-center justify-between px-8 lg:px-[120px] h-auto lg:h-[100px] py-4 lg:py-0 border-b-[5px] border-loah-dark bg-white">
+        <Link to="/" className="text-loah-dark font-bold text-3xl lg:text-[48px] leading-none tracking-tight flex-shrink-0 whitespace-nowrap">
           LOAH
         </Link>
-        <nav className="flex gap-8 lg:gap-14">
-          <Link to="/shop" className="text-loah-dark font-black text-lg uppercase hover:opacity-70 transition-opacity">
+        <nav className="flex gap-4 lg:gap-8 flex-wrap lg:flex-nowrap justify-end">
+          <Link to="/shop" className="text-loah-dark font-bold text-xs lg:text-sm uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
             SHOP
           </Link>
-          <Link to="/journals" className="text-loah-dark font-black text-lg uppercase hover:opacity-70 transition-opacity">
+          <Link to="/journals" className="text-loah-dark font-bold text-xs lg:text-sm uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
             JOURNALS
           </Link>
-          <Link to="/illustrators" className="text-loah-dark font-black text-lg uppercase hover:opacity-70 transition-opacity">
+          <Link to="/illustrators" className="text-loah-dark font-bold text-xs lg:text-sm uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
             ILLUSTRATORS
           </Link>
         </nav>
@@ -27,9 +27,9 @@ export default function Index() {
         <div className="bg-loah-orange border-r-0 lg:border-r-[2.5px] border-b-[5px] lg:border-b-0 border-loah-dark px-8 lg:px-[120px] py-16 lg:py-[242px] min-h-[600px] lg:min-h-[1024px] flex items-center">
           <div className="max-w-[440px]">
             <h1 className="text-loah-dark mb-10">
-              <span className="font-quicksand font-bold text-[60px] lg:text-[90px] leading-tight block">Blue</span>
-              <span className="font-ptsans italic text-[60px] lg:text-[90px] leading-tight block">Sky</span>
-              <span className="font-quicksand font-bold text-[60px] lg:text-[90px] leading-tight block">Drinking</span>
+              <span className="font-bold text-[60px] lg:text-[90px] leading-tight block">Blue</span>
+              <span className="italic text-[60px] lg:text-[90px] leading-tight block">Sky</span>
+              <span className="font-bold text-[60px] lg:text-[90px] leading-tight block">Drinking</span>
             </h1>
             <p className="text-loah-dark text-base leading-[200%] mb-10 max-w-[318px]">
               OUR <span className="font-semibold">CRISPY, LIGHT, CRUSHABLE BEERS</span> CARRY ALL THE POSSIBILITIES OF A CLEAR HEAD. AND THEY TASTE DELICIOUS TOO. OPEN THAT WINDOW AND LET YOUR MIND RUN FREE
