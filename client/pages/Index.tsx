@@ -4,18 +4,18 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="flex items-center justify-between px-8 lg:px-[120px] h-auto lg:h-[100px] py-4 lg:py-0 border-b-[5px] border-loah-dark bg-white">
-        <Link to="/" className="text-loah-dark font-bold text-3xl lg:text-[48px] leading-none tracking-tight flex-shrink-0 whitespace-nowrap">
+      <header className="flex items-center justify-between px-4 lg:px-[120px] py-3 lg:py-4 border-b-[5px] border-loah-dark bg-white">
+        <Link to="/" className="text-loah-dark font-bold text-lg lg:text-2xl leading-none tracking-tight flex-shrink-0">
           LOAH
         </Link>
-        <nav className="flex gap-4 lg:gap-8 flex-wrap lg:flex-nowrap justify-end">
-          <Link to="/shop" className="text-loah-dark font-bold text-xs lg:text-sm uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
+        <nav className="flex gap-3 lg:gap-6 text-xs lg:text-xs">
+          <Link to="/shop" className="text-loah-dark font-bold uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
             SHOP
           </Link>
-          <Link to="/journals" className="text-loah-dark font-bold text-xs lg:text-sm uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
+          <Link to="/journals" className="text-loah-dark font-bold uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
             JOURNALS
           </Link>
-          <Link to="/illustrators" className="text-loah-dark font-bold text-xs lg:text-sm uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
+          <Link to="/illustrators" className="text-loah-dark font-bold uppercase hover:opacity-70 transition-opacity whitespace-nowrap">
             ILLUSTRATORS
           </Link>
         </nav>
