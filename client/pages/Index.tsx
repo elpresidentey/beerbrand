@@ -40,7 +40,7 @@ export default function Index() {
             <h1 className="text-loah-dark mb-12 lg:mb-16">
               <span className="font-bold text-5xl sm:text-6xl lg:text-[90px] leading-none block">Blue</span>
               <span className="italic font-normal text-5xl sm:text-6xl lg:text-[90px] leading-none block">Sky</span>
-              <span className="font-bold text-5xl sm:text-6xl lg:text-[90px] leading-none block">Drinking</span>
+              <span className="font-bold text-5xl sm:text-6xl lg:text-[90px] leading-none block" style={{ width: "253px", height: "94px" }}>Drinking</span>
             </h1>
             <p className="text-loah-dark text-sm sm:text-base leading-relaxed mb-10 font-medium">
               OUR <span className="font-bold">CRISPY, LIGHT, CRUSHABLE BEERS</span> CARRY ALL THE POSSIBILITIES OF A CLEAR HEAD. AND THEY TASTE DELICIOUS TOO. OPEN THAT WINDOW AND LET YOUR MIND RUN FREE
